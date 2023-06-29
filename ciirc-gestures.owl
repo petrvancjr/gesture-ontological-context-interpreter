@@ -1,0 +1,403 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ease-crc.org/ont/ciirc-gestures"
+     xml:base="http://www.ease-crc.org/ont/ciirc-gestures"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:SOMA="http://www.ease-crc.org/ont/SOMA.owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.ease-crc.org/ont/ciirc-gestures">
+        <owl:imports rdf:resource="http://www.ease-crc.org/ont/SOMA.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#Black -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#Black">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#Blue -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#Blue">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#Bowl -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#Bowl">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedContainer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#hasShape"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#Rounded"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#isColorOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#Red"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#SmallSize"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#CrackerBox -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#CrackerBox">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedContainer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#hasShape"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#Sharp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#isColorOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#Red"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#SmallSize"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#FoamBrick -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#FoamBrick">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#hasShape"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#Sharp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#isColorOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#Red"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#SmallSize"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#Green -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#Green">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#LargeSize -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#LargeSize">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Size"/>
+        <owl:disjointWith rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#SmallSize"/>
+        <rdfs:comment>Doesn&apos;t fit into the Panda Robot&apos;s gripper.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#Mug -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#Mug">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedContainer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#hasShape"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#Rounded"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#isColorOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#Red"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#SmallSize"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#MustardBottle -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#MustardBottle">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedContainer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#hasShape"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#Rounded"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#isColorOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#Yellow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#SmallSize"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#Orange -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#Orange">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#PandaGripper -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#PandaGripper">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA-OBJ.owl#PrismaticJoint"/>
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#PandaRobot"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#PandaRobot -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#PandaRobot">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA-OBJ.owl#ArtificialAgent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#isOntopOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#Table"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#PottedMeatCan -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#PottedMeatCan">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedContainer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#hasShape"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#Rounded"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#isColorOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#Blue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#SmallSize"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#Red -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#Red">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#Rounded -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#Rounded">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Sharpness"/>
+        <owl:disjointWith rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#Sharp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#Sharp -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#Sharp">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Sharpness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#SmallSize -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#SmallSize">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Size"/>
+        <rdfs:comment>Can be grasped by Panda Robot&apos;s gripper.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#StoragePlace -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#StoragePlace">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Surface"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isLocationOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#Table"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#SugarBox -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#SugarBox">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedContainer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#hasShape"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#Sharp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#isColorOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#Yellow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#SmallSize"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#Table -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#Table">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedFurniture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#TableSurface -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#TableSurface">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Surface"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isLocationOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#Table"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#TomatoSoupCan -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#TomatoSoupCan">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedContainer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#hasShape"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#Rounded"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#hasShape"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#Sharp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#isColorOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#Red"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality"/>
+                <owl:someValuesFrom rdf:resource="http://www.ease-crc.org/ont/ciirc-gestures#SmallSize"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#Violet -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#Violet">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#White -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#White">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/ciirc-gestures#Yellow -->
+
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/ciirc-gestures#Yellow">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Color"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
